@@ -55,31 +55,27 @@
 <h2>Research</h2>
 
 <p align="justify"> 
-Guray Ozen is compiler research engineer at Google Research. He is working on MLIR infrastructure. 
-Before joining Google, he worked at NVIDIA as a compiler engineer in the NVIDIA HPC compilers (formerly PGI compilers) team. His research focus was on how the C, C++, Fortran languages, and OpenMP/OpenACC programming models should evolve to take advantage of the GPUs in the HPC area. 
-<!-- He was the lead compiler engineer behind <a href="https://www.nersc.gov/news-publications/nersc-news/nersc-center-news/2019/nersc-nvidia-to-partner-on-compiler-development-for-perlmutter-system/">NERSC/NVIDIA OpenMP Contract</a> project.  -->
-He had made significant contributions to many production compilers such as clang, flang, and NVIDIA HPC compilers. 
-Held the lead on the OpenMP Language Committee for NVIDIA. He was an active contributor to OpenACC.
-Before NVIDIA, he worked in the programming models team at Barcelona Supercomputing Center (BSC) while doing his Ph.D. at Universitat Politecnica de Catalunya – BarcelonaTech.
+Guray Ozen is compiler research engineer at Google Research. 
+
+His current research centers on optimizing compilers and programming languages for GPU utilization in ML and HPC. Key contributions to production compilers including clang, flang, MLIR, IREE and NVIDIA HPC (formerly PGI). 
+
+Previously involved in designing languages like OpenMP and OpenACC. Served as a voting member in the OpenMP Language Committee for NVIDIA and contributed actively to OpenACC language.
+
 </p>
   
-<!-- <p> <strong>Language Committee Activities: </strong> OpenMP and OpenACC to represent NVIDIA. </p> -->
-<!-- <p>He is on the language committee in OpenMP and OpenACC to represent NVIDIA. </p> -->
-<!-- <p><strong>MACC Compiler</strong></p>
-
-<p>I am the creator of the current implementation of the <a href="http://link.springer.com/chapter/10.1007%2F978-3-319-11454-5_16">MACC compiler</a> which supports OpenMP 4.5 directives for automatic GPU offloading. MACC, yet another research compiler to investigate directive-based OpenMP accelerator model for GPUs, is built on top of the <a href="https://pm.bsc.es/mcxx">Mercurium</a> source-to-source compiler framework and supports <a href="https://pm.bsc.es/ompss">OmpSs</a> and almost all directives of the OpenMP accelerator model for GPU. It aims to extend OpenMP programming model to enhance code generation and use of the efficiently memory hierarchy. Currently, it is able to generator CUDA and OpenCL code based on OpenMP directives. MACC compiler is forerunner of OpenMP as it is easily extensible&nbsp;research compiler.&nbsp;It also has very elegant nested loop parallelism.&nbsp;</p>
-
-<p><strong>Clang/LLVM -&nbsp;GPU offload OpenMP 4.5&nbsp;</strong></p>
-
-<p>I had been working on OpenMP 4.5 GPU offloading implementation on LLVM compiler suite during my visit at IBM T.J. Watson Research Center at Advanced Compiler Team. The special branch of LLVM&nbsp;can be openly available at <a href="https://github.com/clang-ykt">LLVM (clang-ykt)</a>.&nbsp;I implemented implicit declare target compiler&nbsp;extension that enables automatically&nbsp;function&nbsp;offloading for target accelerator devices.&nbsp;</p> -->
-
-<!-- <p><b>Research interests:</b> compiler level code analysis, code generation and optimization, exposing application structure for optimization.</p> -->
-
 <h2>Work</h2>
-
 <ul>
   <li><strong>Google, </strong> Compiler Research Engineer, Google Research, August 2022 </li>
-  <li><strong>NVIDIA, </strong> Compiler Engineer, NVIDIA HPC Compilers, GPU Group,  2018 - 2022 </li>
+	  <ul>
+		<li>Working on cutting-edge code transformation targeting PTX, focuses on NVIDIA Hopper.</li>
+	  </ul>
+  <li><strong>NVIDIA, </strong> Compiler Engineer, NVIDIA HPC Compilers, GPU Group,  2018 - 2022 
+  	<ul>
+  		<li>Worked on C, C++, and Fortran to PTX code generation compiler that accelerated programs on top500 supercomputers</li>
+  		<li>Lead engineer of <a href="https://www.google.com/url?q=https://www.nersc.gov/news-publications/nersc-news/nersc-center-news/2019/nersc-nvidia-to-partner-on-compiler-development-for-perlmutter-system/&sa=D&source=docs&ust=1692786800896888&usg=AOvVaw19sAdULG-9m9fPlKcBzad5">OpenMP GPU Offload Project</a>. Fastest compiler for SPEC ACCEL® benchmarks</li>
+  		<li>Implemented <a href="https://www.google.com/url?q=https://developer.nvidia.com/blog/accelerating-fortran-do-concurrent-with-gpus-and-the-nvidia-hpc-sdk/&sa=D&source=docs&ust=1692786837110409&usg=AOvVaw36U067L77EvTFfPCRaTW6m">Standard Parallelism in Fortran</a> for GPUs</li>
+	</ul>
+  </li>
   <li><strong>NVIDIA, </strong> Compiler Research Intern, NVIDIA HPC Compilers, GPU Group,  2017 </li>
   <li><strong>IBM T.J. Watson Research Center, </strong> Short-term Researcher, Advanced Compilers Group, Yorktown Heights, New York, USA, 2016</li>
   <li><strong>Barcelona Supercomputing Center, </strong> Researcher Assistant,&nbsp;Barcelona, Spain, 2013 - 2017</li>
@@ -204,6 +200,12 @@ Before NVIDIA, he worked in the programming models team at Barcelona Supercomput
     <li>[<a href="http://on-demand.gputechconf.com/gtc/2017/presentation/s7192-guray-ozen-ompss-openacc-multi-target-task-based-programming-model-exploiting-gpu-kernals.pdf">SLIDES</a>]</li>
   </ul>
   </li>
+</ul>
+
+<h2>Patent</h2>
+
+<ul>
+  <li>Accurate alias analysis in logarithmic time, G. Ozen, M. Wolfe, filed by NVIDIA 2022 </li>  
 </ul>
 
 <p></p>
