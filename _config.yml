@@ -265,6 +265,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Ozen]
+  
   first_name: [Guray, G.]
 
   style: apa
