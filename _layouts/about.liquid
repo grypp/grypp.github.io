@@ -43,9 +43,23 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Work Experience -->
+    {% if page.work_experience %}
+      <h2>Work Experience</h2>
+      <ul class="work-experience" style="list-style: none; padding-left: 0; margin-bottom: 1rem;">
+        {% for item in site.data.cv %}
+          {% if item.title == 'Experience' %}
+            {% for exp in item.contents %}
+              <li style="margin-bottom: 0.3rem;"><strong>{{ exp.title }}</strong>, {{ exp.institution }} <span class="text-muted">({{ exp.year }})</span></li>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </ul>
     {% endif %}
 
     <!-- Latest posts -->
@@ -59,7 +73,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected talks and publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}

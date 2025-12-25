@@ -1,3 +1,9 @@
-<div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+<div class="publications compact-publications">
+  <style>
+    .compact-publications ol.bibliography li { margin-bottom: 0.3rem !important; }
+    .compact-publications h2.bibliography { margin-top: 0.5rem !important; padding-top: 0.3rem !important; font-size: 1.1rem !important; }
+    .compact-publications .links a.btn { padding: 0.1rem 0.4rem !important; font-size: 0.75rem !important; }
+    .compact-publications .abbr { margin-bottom: 0.2rem !important; }
+  </style>
+  {% bibliography --group_by year --group_order descending --query @*[selected=true]* %}
 </div>

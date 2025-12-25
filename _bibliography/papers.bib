@@ -1,115 +1,205 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+% ============== PUBLICATIONS ==============
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@inproceedings{ozen2024nvdsl,
+  abbr={ICML},
+  title={NVDSL: Simplifying Tensor Cores with Python-Driven MLIR Metaprogramming},
+  author={Ozen, Guray},
+  booktitle={ESFOMO Workshop at ICML},
+  year={2024},
   selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  pdf={nvdsl.pdf}
 }
 
-@book{przibram1967letters,
+@inproceedings{ozen2022performant,
+  abbr={CC},
+  title={Performant Portable OpenMP},
+  author={Ozen, Guray and Wolfe, Michael},
+  booktitle={Proceedings of the 31st ACM SIGPLAN International Conference on Compiler Construction},
+  year={2022},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  pdf={performant_openmp.pdf},
+  video={https://youtu.be/Qjj_pp3462U},
+  doi={10.1145/3497776.3517770}
+}
+
+@inproceedings{daley2021nre,
+  abbr={SC},
+  title={Non-Recurring Engineering (NRE) Best Practices: A Case Study with the NERSC/NVIDIA OpenMP Contract},
+  author={Daley, Christopher and Southwell, Annemarie and Gayatri, Rahulkumar and Biersdorff, Scott and Toepfer, Craig and Ozen, Guray and Wright, Nicholas},
+  booktitle={Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC)},
+  year={2021},
+  bibtex_show={true},
+  pdf={nre_best_practices.pdf}
+}
+
+@inproceedings{ozen2018openmp,
+  abbr={LLVM-HPC},
+  title={OpenMP GPU Offload in Flang and LLVM},
+  author={Ozen, Guray and Atzeni, Simone and Wolfe, Michael and Southwell, Annemarie and Klimowicz, Gary},
+  booktitle={LLVM-HPC Workshop at SC},
+  year={2018},
+  bibtex_show={true},
+  pdf={openmp_gpu_offload.pdf}
+}
+
+@phdthesis{ozen2018phd,
+  abbr={PhD},
+  title={Compiler and Runtime Based Parallelization and Optimization for GPUs},
+  author={Ozen, Guray},
+  school={Universitat Politècnica de Catalunya (UPC)},
+  year={2018},
+  note={Excellent Cum Laude},
+  bibtex_show={true},
+  pdf={phd_thesis.pdf}
+}
+
+@inproceedings{ozen2016collective,
+  abbr={PACT},
+  title={Collective Dynamic Parallelism for Directive Based GPU Programming Languages and Compilers},
+  author={Ozen, Guray and Ayguade, Eduard and Labarta, Jesus},
+  booktitle={International Conference on Parallel Architectures and Compilation Techniques (PACT)},
+  year={2016},
+  bibtex_show={true},
+  pdf={collective_dynamic_parallelism.pdf},
+  doi={10.1145/2967938.2967955}
+}
+
+@inproceedings{antao2016offloading,
+  abbr={LLVM-HPC},
+  title={Offloading Support for OpenMP in Clang and LLVM},
+  author={Antao, Samuel and Bataev, Alexey and Jacob, Arpith and Eichenberger, Alexandre and Rokos, Georgios and Martineau, Matt and Jin, Tian and Ozen, Guray and Sura, Zehra and Chen, Tong and Sung, Hyojin and Bertolli, Carlo and O'Brien, Kevin},
+  booktitle={LLVM-HPC Workshop at SC},
+  year={2016},
+  bibtex_show={true},
+  pdf={offloading_openmp_clang.pdf},
+  slides={offloading_openmp_clang_slides.pdf},
+  doi={10.1109/LLVM-HPC.2016.9}
+}
+
+@inproceedings{ozen2016multiple,
+  abbr={IWOMP},
+  title={Multiple Target Task Sharing Support for the OpenMP Accelerator Model},
+  author={Ozen, Guray and Mateo, Sergi and Ayguade, Eduard and Labarta, Jesus and Beyer, James},
+  booktitle={International Workshop on OpenMP (IWOMP)},
+  year={2016},
+  bibtex_show={true},
+  pdf={multiple_target_task.pdf},
+  slides={multiple_target_task_slides.pdf},
+  doi={10.1007/978-3-319-45550-1_6}
+}
+
+@inproceedings{ozen2015exploring,
+  abbr={WACCPD},
+  title={Exploring Dynamic Parallelism in OpenMP},
+  author={Ozen, Guray and Ayguade, Eduard and Labarta, Jesus},
+  booktitle={Workshop on Accelerator Programming using Directives (WACCPD) at SC},
+  year={2015},
+  bibtex_show={true},
+  pdf={exploring_dynamic_parallelism.pdf},
+  slides={exploring_dynamic_parallelism_slides.pdf},
+  doi={10.1109/WACCPD.2015.8}
+}
+
+@inproceedings{ozen2014roles,
+  abbr={IWOMP},
+  title={On the Roles of the Programmer, the Compiler and the Runtime System When Programming Accelerators in OpenMP},
+  author={Ozen, Guray and Ayguade, Eduard and Labarta, Jesus},
+  booktitle={International Workshop on OpenMP (IWOMP)},
+  year={2014},
+  bibtex_show={true},
+  pdf={roles_programmer_compiler.pdf},
+  slides={roles_programmer_compiler_slides.pdf},
+  doi={10.1007/978-3-319-11454-5_16}
+}
+
+% ============== TALKS ==============
+
+@misc{ozen2025cutlass,
+  abbr={LLVM},
+  title={CUTLASS Python DSL Infrastructure},
+  author={Ozen, Guray},
+  howpublished={LLVM Developers' Meeting},
+  year={2025},
+  selected={true},
+  bibtex_show={true},
+  video={https://www.youtube.com/watch?v=5NXd6MbKYNQ&t=424s},
+  slides={cutlass_dsl_slides.pdf}
+}
+
+@misc{ozen2025blackwell,
+  abbr={EuroLLVM},
+  title={Bringing NVIDIA Blackwell support to LLVM and MLIR},
+  author={Ozen, Guray},
+  howpublished={EuroLLVM},
+  year={2025},
+  selected={true},
+  bibtex_show={true},
+  video={https://youtu.be/qavOwgaieIo?si=7MaEx-pUHolg8jYL},
+  slides={blackwell_llvm_slides.pdf}
+}
+
+@misc{ozen2024hopper,
+  abbr={EuroLLVM},
+  title={Zero to Hero: Programming Nvidia Hopper Tensor Core with MLIR's NVGPU Dialect},
+  author={Ozen, Guray},
+  howpublished={EuroLLVM},
+  year={2024},
+  selected={true},
+  bibtex_show={true},
+  video={https://youtu.be/V3Q9IjsgXvA?si=3IVAd_3-qJmszG8M},
+  slides={hopper_nvgpu_slides.pdf}
+}
+
+@misc{ozen2024targeting,
+  abbr={CGO},
+  title={Targeting NVIDIA Hopper using MLIR},
+  author={Ozen, Guray},
+  howpublished={LLVM-PERF Workshop at CGO},
+  year={2024},
+  bibtex_show={true},
+  slides={targeting_hopper_slides.pdf}
+}
+
+@misc{ozen2021thinking,
+  abbr={NASA},
+  title={Thinking OpenMP with NVIDIA HPC Compilers},
+  author={Ozen, Guray},
+  howpublished={NASA Advanced Supercomputing (NAS) Division},
+  year={2021},
+  bibtex_show={true},
+  pdf={thinking_openmp.pdf}
+}
+
+@misc{ozen2021gtc,
+  abbr={GTC},
+  title={Accelerating Applications for NERSC's Perlmutter Supercomputer Using OpenMP and NVIDIA's HPC SDK},
+  author={Daley, Christopher and Ozen, Guray},
+  howpublished={GPU Technology Conference (GTC), Silicon Valley},
+  year={2021},
+  bibtex_show={true}
+}
+
+@misc{ozen2018doctoral,
+  abbr={SC},
+  title={Compiler and Runtime Based Parallelization and Optimization for GPUs},
+  author={Ozen, Guray and Ayguade, Eduard and Labarta, Jesus},
+  howpublished={SC Doctoral Showcase},
+  year={2018},
+  bibtex_show={true},
+  pdf={sc18_doctoral.pdf},
+  poster={sc18_poster.pdf}
+}
+
+@misc{ozen2017gtc,
+  abbr={GTC},
+  title={Multi-target Task-Based Programming Model Exploiting OpenACC GPU Kernel},
+  author={Ozen, Guray},
+  howpublished={GPU Technology Conference (GTC), Silicon Valley},
+  year={2017},
+  bibtex_show={true},
+  slides={gtc17_multitarget_slides.pdf}
 }
