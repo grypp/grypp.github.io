@@ -10,16 +10,17 @@ nav_order: 2
 <!-- Bibsearch Feature -->
 {% include bib_search.liquid %}
 
-## Papers
-
-<div class="publications">
-{% bibliography --query @inproceedings || @phdthesis --group_by year --group_order descending %}
-</div>
-
----
-
 ## Talks
 
 <div class="publications">
 {% bibliography --query @misc --group_by year --group_order descending %}
+</div>
+
+
+---
+
+## Papers
+
+<div class="publications">
+{% bibliography --query @inproceedings || @phdthesis --group_by year --group_order descending %}
 </div>

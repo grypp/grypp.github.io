@@ -9,15 +9,15 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Computer Architecture
-      institution: BarcelonaTech, Universitat Politècnica de Catalunya (UPC), Spain
+    - title: PhD in Computer Architecture (Excellent Cum Laude)
+      institution: Universitat Politècnica de Catalunya (UPC), Spain
       year: 2018
       description:
         - "Excellent Cum Laude"
         - "Compiler and runtime based parallelization and optimization for GPUs"
         - "Advisors: Jesus Labarta, Eduard Ayguade"
     - title: MSc High-Performance Computing
-      institution: BarcelonaTech, Universitat Politècnica de Catalunya (UPC), Spain
+      institution: Universitat Politècnica de Catalunya (UPC), Spain
       year: 2014
     - title: BSc Computer Science Engineering
       institution: Dokuz Eylul University, Turkey
@@ -27,20 +27,20 @@
   type: time_table
   contents:
     - title: Compiler Engineer, ML Compilers
-      institution: NVIDIA
+      institution: NVIDIA, Switzerland
       year: 2024 - Present
       description:
         - Working on CuTeDSL (Cutlass Python DSL) and TileIR Compiler
         - MLIR-based programming models for GPU programming
     - title: Compiler Research Engineer, ML Compiler Systems Research
-      institution: Google Research (DeepMind)
+      institution: Google Research (DeepMind), Switzerland
       year: 2022 - 2024
       description:
         - Implemented NVDSL, a Python DSL built on MLIR for NVIDIA Hopper GPUs
         - Achieved cuBLAS-level performance
         - Worked in IREE team
     - title: Compiler Engineer, NVIDIA HPC Compilers
-      institution: NVIDIA
+      institution: NVIDIA, Germany
       year: 2018 - 2022
       description:
         - C, C++, and Fortran to PTX code generation for top500 supercomputers
@@ -48,20 +48,20 @@
         - Fastest compiler for SPEC ACCEL® benchmarks
         - Implemented Standard Parallelism in Fortran for GPUs
     - title: Compiler Research Intern
-      institution: NVIDIA
+      institution: NVIDIA, USA
       year: 2017
     - title: Short-term Researcher
-      institution: IBM T.J. Watson Research Center, Advanced Compilers Group
+      institution: Advanced Compilers Group, IBM T.J. Watson Research Center, Yorktown Heights, USA
       year: 2016
       description:
         - Yorktown Heights, New York, USA
     - title: Research Assistant
-      institution: Barcelona Supercomputing Center
+      institution: Barcelona Supercomputing Center, Spain
       year: 2013 - 2017
       description:
         - Barcelona, Spain
     - title: Software Engineer
-      institution: Veripark, Akbank
+      institution: Veripark, Akbank, Istanbul
       year: 2010 - 2012
       description:
         - Istanbul, Turkey
