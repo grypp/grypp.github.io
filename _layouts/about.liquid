@@ -50,12 +50,26 @@ layout: default
 
     <!-- Work Experience -->
     {% if page.work_experience %}
-      <h2>Work Experience</h2>
+      <h2><a href="{{ '/cv/' | relative_url }}" style="color: inherit">Work Experience</a></h2>
       <ul class="work-experience" style="list-style: none; padding-left: 0; margin-bottom: 1rem;">
         {% for item in site.data.cv %}
           {% if item.title == 'Experience' %}
             {% for exp in item.contents %}
               <li style="margin-bottom: 0.3rem;"><strong>{{ exp.title }}</strong>, {{ exp.institution }} <span class="text-muted">({{ exp.year }})</span></li>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    <!-- Education -->
+    {% if page.education %}
+      <h2><a href="{{ '/cv/' | relative_url }}" style="color: inherit">Education</a></h2>
+      <ul class="education" style="list-style: none; padding-left: 0; margin-bottom: 1rem;">
+        {% for item in site.data.cv %}
+          {% if item.title == 'Education' %}
+            {% for edu in item.contents %}
+              <li style="margin-bottom: 0.3rem;"><strong>{{ edu.title }}</strong>, {{ edu.institution }} <span class="text-muted">({{ edu.year }})</span></li>
             {% endfor %}
           {% endif %}
         {% endfor %}
