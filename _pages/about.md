@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Guray Ozen is a compiler engineer in the **Machine Learning Compiler** team at **NVIDIA**. His current focus centers on optimizing compilers and programming languages for **GPU utilization** in **machine learning (ML)** and **high-performance computing (HPC)**.
+Guray Ozen is a compiler engineer in the **Machine Learning Compiler** team at **NVIDIA**. 
 
 ## Current Projects
 
@@ -37,6 +37,6 @@ Guray currently works on two programming models based on MLIR compiler:
 
 ## Research Interest
 
-He has made key contributions to several production-grade compilers, including **Clang**, **Flang**, **MLIR**, **IREE**, and **NVIDIA HPC** (formerly PGI).
+His current focus centers on optimizing compilers and programming languages for **GPU utilization** in **machine learning (ML)** and **high-performance computing (HPC)**. He has made key contributions to several production-grade compilers, including **Clang**, **Flang**, **MLIR**, **IREE**, and **NVIDIA HPC** (formerly PGI).
 
 Previously, he was actively involved in language design for parallel programming models, such as **OpenMP** and **OpenACC**. He served as a voting member of the **OpenMP Language Committee** for NVIDIA and contributed extensively to the OpenACC language specification.
