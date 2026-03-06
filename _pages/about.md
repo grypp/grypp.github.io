@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Guray Ozen is a compiler engineer in the **Machine Learning Compiler** team at **NVIDIA**. 
+Guray Ozen is a principal compiler engineer in the **Machine Learning Compiler** team at **NVIDIA**. 
 
 ## Current Projects
 
