@@ -26,14 +26,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Guray Ozen is a principal compiler engineer in the **Machine Learning Compiler** team at **NVIDIA**. 
+Guray Ozen is a Principal Compiler Engineer on the **Machine Learning Compiler** team at **NVIDIA**. 
 
 ## Current Projects
 
 Guray currently works on two programming models based on MLIR compiler:
 
-- **TileIR Compiler**: A next-generation MLIR-based IR for portable GPU programming with a focus on kernel composition and performance tuning across ML and HPC workloads.
-- **CuTeDSL, Cutlass Python DSL**: Cutlass 4.0 introduced CuTe Python DSL. We designed this for writing high-performance GPU kernels, integrated with CUTLASS and designed for composable kernel development.
+- **[CuTeDSL (CUTLASS Python DSL)](https://docs.nvidia.com/cutlass/latest/media/docs/pythonDSL/cute_dsl_general/dsl_introduction.html)**: A peak-performance DSL for composable, high-performance GPU kernels, tightly integrated with CUTLASS. 
+- **[cuda TILE Compiler](https://docs.nvidia.com/cuda/tile-ir/latest/)**: Focused on productivity and portability, targeting kernel composition and performance tuning across ML and HPC workloads.
 
 ## Research Interest
 
