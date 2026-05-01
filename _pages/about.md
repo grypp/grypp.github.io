@@ -35,11 +35,7 @@ Guray currently works on programming models based on MLIR compiler:
 - **[CuTeDSL (CUTLASS Python DSL)](https://docs.nvidia.com/cutlass/latest/media/docs/pythonDSL/cute_dsl_general/dsl_introduction.html)**: A peak-performance DSL for composable, high-performance GPU kernels, tightly integrated with CUTLASS.
 - **Python DSL Infra for MLIR**: I designed and built that powers [CuTeDSL](https://docs.nvidia.com/cutlass/latest/media/docs/pythonDSL/cute_dsl_general/dsl_introduction.html). While CuTeDSL is the public face, the DSL Infra is the underlying framework — used internally as the frontend layer for several MLIR-based compiler projects.
 
-At its core, it is a **multi-stage programming** system embedded in Python, targeting MLIR. It cleanly separates two phases:
-  - **Meta phase** — full Python (dynamic typing, classes, metaprogramming) runs at compile time to configure and generate kernel code.
-  - **Stage phase** — only computation and control flow are captured as statically-typed IR for the GPU.
-
-This design draws on classical work in *multi-stage programming*, *partial evaluation*, and *phase-driven typing*, but is shaped by a single pragmatic goal: **writing fast GPU kernels**. Python's expressiveness is exactly what you want when *constructing* a kernel — and exactly what you don't want when *executing* one. MLIR Python DSL Infra gives you all of it at compile time, then discards it before a single instruction reaches the GPU.  
+At its core, it is a **multi-stage programming** system embedded in Python, targeting MLIR. This design draws on classical work in *multi-stage programming*, *partial evaluation*, and *phase-driven typing*, but is shaped by a single pragmatic goal: **writing fast GPU kernels**. Python's expressiveness is exactly what you want when *constructing* a kernel — and exactly what you don't want when *executing* one. MLIR Python DSL Infra gives you all of it at compile time, then discards it before a single instruction reaches the GPU.  
  
 - **[cuda TILE Compiler](https://docs.nvidia.com/cuda/tile-ir/latest/)**: Focused on productivity and portability, targeting kernel composition and performance tuning across ML and HPC workloads.
 
